@@ -1077,7 +1077,7 @@ var Slider = {
       this.$emit('drag-start', this);
     },
     _move: function _move(e) {
-      e.preventDefault();
+      //e.preventDefault();
 
       if (this.stopPropagation) {
         e.stopPropagation();
